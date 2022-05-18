@@ -9,6 +9,6 @@ export class ListadoComponent{
   heroes:string[] = ["spiderman", "ironman", "thor", "dcddc"];
   heroeBorrado: string = "";
   borrarHeroe():void {
-    this.heroeBorrado = this.heroes.pop() || "Lista vacia";
+    this.heroeBorrado = this.heroes.pop() || "";
   }
 }
